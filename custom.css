@@ -1,6 +1,6 @@
 /* Your custom styles goes here */
 /* 添加名言到页面顶部 */
-.thumbsup-header::before {
+body::before {
   content: "高山仰止，景行行止";
   display: block;
   text-align: center;
