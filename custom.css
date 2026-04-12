@@ -1,11 +1,1 @@
 /* Your custom styles goes here */
-/* 添加名言到页面顶部 */
-body::before {
-  content: "高山仰止，景行行止";
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  font-style: italic;
-  margin: 20px 0;
-  color: #666;
-}
