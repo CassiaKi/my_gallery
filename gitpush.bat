@@ -1,10 +1,9 @@
 @echo off
-echo 正在提交所有文件到Git...
+echo Starting Git push...
 
-:: 执行Git命令
 git add .
-git commit -m "自动提交"
+git commit -m "Auto update"
 git push origin master
 
-echo 提交完成！按任意键退出
+echo Push completed successfully!
 pause >nul
